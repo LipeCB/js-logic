@@ -52,7 +52,6 @@ console.log('test');
 function login(password){
   if(password === 'test1234'){
     return 'Login Success';
-
   }
 
 }
@@ -73,6 +72,15 @@ console.log(login('test1234'))
  * Console.log your result.
 */
 
+function isGreaterThan(first,second){
+  if(first > second){
+    return true;
+  }
+  
+}
+
+console.log(isGreaterThan('34','24'));
+console.log(isGreaterThan('12','34'));
 
 
 /*
