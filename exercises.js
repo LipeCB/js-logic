@@ -36,6 +36,7 @@ function canVote(age){
 }
 
 console.log('can vote results', canVote(18));
+console.log('test');
 
 /*
  * #2
